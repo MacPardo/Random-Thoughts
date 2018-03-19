@@ -1,0 +1,24 @@
+.Post {
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2), -2px -2px 5px rgba(0,0,0,.2);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.Post__title {
+  background-color: #444;
+  color: #ddd;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.Post__content {
+  background-color: #ddd;
+  color: #444;
+  text-align: justify;
+  padding: 20px;
+  word-wrap: break-word;
+}

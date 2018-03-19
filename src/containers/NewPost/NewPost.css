@@ -1,0 +1,28 @@
+.NewPost {
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2), -2px -2px 5px rgba(0,0,0,.2);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.NewPost__title {
+  display: block;
+  border: none;
+  padding: 20px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #444;
+  width: 100%;
+  color: #ddd;
+  font-size: 18px;
+}
+
+.NewPost__content {
+  border: none;
+  overflow: hidden;
+  resize: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 16px;
+}
